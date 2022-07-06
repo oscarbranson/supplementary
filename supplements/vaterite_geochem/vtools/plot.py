@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from sqlalchemy import false
 import uncertainties.unumpy as unp
 import pandas as pd
 import numpy as np
@@ -71,7 +70,7 @@ def pick_cax_position(x, y, f_width, f_height):
             return p
     
     # otherwise just return the best one
-    return np.argwhere(pos == min(pos))[0] + 1
+    return np.argwhere(pos == min(pos)).flatten()[0] + 1
     
 def unit_picker(a):
     base = np.log10(a)
@@ -84,7 +83,7 @@ def unit_picker(a):
     else:
         return 1e9, 'nmol/mol'
     
-def match_lim(x, y, ax, pad=0.1, force_zero_min=false, line=True):
+def match_lim(x, y, ax, pad=0.1, force_zero_min=False, line=True):
     x = noms(x)
     y = noms(y)
     
