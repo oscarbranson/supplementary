@@ -27,6 +27,11 @@ def pkfn(angle, position, height, sigma, gamma, background, background_slope):
     shape /= shape.max()
     return height * shape + background + (angle - position) * background_slope
 
+def pkfn_nobkg(angle, position, height, sigma, gamma, background, background_slope):
+    shape = voigt_profile(angle - position, sigma, gamma)
+    shape /= shape.max()
+    return height * shape
+
 def fit_peak(dat, location, window=0.5):
 
     sub = dat.loc[(dat.Angle >= location - window) & (dat.Angle <= location + window)]
@@ -41,7 +46,7 @@ def fit_peak(dat, location, window=0.5):
     
     return curve_fit(pkfn, sub.Angle, sub.PSD, p0=p0, maxfev=2000)
 
-def calc_vat_frac(file, vat_location=12.42, cal_location=13.47, window=0.5):
+def calc_vat_frac(file, vat_location=12.42, cal_location=13.47, window=0.5, a=OFFSET):
     
     dat = read_xrd(file)
         
@@ -56,6 +61,6 @@ def calc_vat_frac(file, vat_location=12.42, cal_location=13.47, window=0.5):
         yn -= p[-1] * (xn - p[0])
         areas.append(np.trapz(yn, xn))
     
-    R = areas[0] / areas[1] / OFFSET
+    R = areas[0] / areas[1] / a
     
     return R / (1 + R)
