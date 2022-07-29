@@ -1,0 +1,240 @@
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.8264901131306157
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.7346578783383251
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.6428256435460344
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.5509934087537438
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.4591611739614532
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.36732893916916254
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.2754967043768719
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.18366446958458127
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.09183223479229063
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
+SOLUTION 0
+    temp                2.50000000e+01
+    pH                  8.19400000e+00
+    Na                  2.33039178e-01
+    Cl                  2.39425010e-01
+    Ca                  1.07027774e-02
+    Mg                  2.06888593e-03
+    Sr                  8.68844000e-07
+    B                   1.84997485e-05
+    C                   5.00000000e-03
+    unit                mol/kgw
+
+EQUILIBRIUM_PHASES
+   Vaterite  0.0
+SELECTED_OUTPUT
+    -pH
+    -temperature
+    -alkalinity
+    -ionic_strength
+    -totals Ca C
+    -m OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -a OH- CO3-2 MgCO3 CaB(OH)4+ HCO3- Ca+2 H+ CO2
+    -si CO2(g) Vaterite Calcite Portlandite Aragonite
+END
