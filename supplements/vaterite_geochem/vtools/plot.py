@@ -71,7 +71,7 @@ def pick_cax_position(x, y, f_width, f_height):
             return p
     
     # otherwise just return the best one
-    return np.argwhere(pos == min(pos))[0] + 1
+    return (np.argwhere(pos == min(pos))[0] + 1)[0]
     
 def unit_picker(a):
     base = np.log10(a)
