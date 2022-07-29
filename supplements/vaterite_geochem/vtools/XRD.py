@@ -1,8 +1,6 @@
 
-from ctypes.wintypes import VARIANT_BOOL
 import numpy as np
 import pandas as pd
-from pyproj import transform
 from scipy.special import voigt_profile
 from scipy.optimize import curve_fit
 import uncertainties as un
