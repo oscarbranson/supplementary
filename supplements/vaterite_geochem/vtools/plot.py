@@ -353,3 +353,10 @@ def solution_vs_yvar(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], yvar=('overgr
     axs[-1].legend()
 
     return fig, axs
+
+def label_axes(axs, labels=None, x=0.02, y=0.98, va='top', ha='left', fontsize=12, weight='bold', color='grey', zorder=999, **kwargs):
+    if labels is None:
+        labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    for ax, lab in zip(axs.flat, labels):
+        ax.text(x, y, lab, transform=ax.transAxes, va=va, ha=ha, fontsize=fontsize, weight=weight, color=color, zorder=zorder, **kwargs)
+        
