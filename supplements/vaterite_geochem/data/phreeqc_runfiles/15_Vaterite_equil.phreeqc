@@ -1,17 +1,17 @@
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  1.2386919457703138
+   Vaterite  0.8936984149629463
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -24,18 +24,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  1.10105950735139
+   Vaterite  0.7943985910781746
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -48,18 +48,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.9634270689324663
+   Vaterite  0.6950987671934027
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -72,18 +72,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.8257946305135426
+   Vaterite  0.5957989433086308
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -96,18 +96,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.6881621920946188
+   Vaterite  0.49649911942385905
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -120,18 +120,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.550529753675695
+   Vaterite  0.3971992955390872
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -144,18 +144,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.4128973152567713
+   Vaterite  0.2978994716543154
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -168,18 +168,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.2752648768378476
+   Vaterite  0.19859964776954353
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -192,18 +192,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.1376324384189238
+   Vaterite  0.09929982388477177
 SELECTED_OUTPUT
     -pH
     -temperature
@@ -216,18 +216,18 @@ SELECTED_OUTPUT
 END
 SOLUTION 0
     temp                2.50000000e+01
-    pH                  8.19400000e+00
-    Na                  2.55992201e-01
-    Cl                  2.60514241e-01
-    Ca                  9.03959687e-03
-    Mg                  4.48263160e-06
-    Sr                  7.57421000e-07
-    B                   3.95592190e-04
+    pH                  8.18800000e+00
+    Na                  2.47976348e-01
+    Cl                  2.54398252e-01
+    Ca                  1.28452366e-02
+    Mg                  -1.42780000e-06
+    Sr                  1.01334100e-06
+    B                   1.01011750e-05
     C                   5.00000000e-03
     unit                mol/kgw
 
 EQUILIBRIUM_PHASES
-   Calcite  0.0
+   Vaterite  0.0
 SELECTED_OUTPUT
     -pH
     -temperature
