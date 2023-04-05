@@ -131,10 +131,13 @@ ratio_to_partitioning = {
 }
 
 
-def solution_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], phase='overgrowth', xmode='solution_start', solid_mode='ratios', panel_size=3):
+def solution_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], phase='overgrowth', xmode='solution_start', solid_mode='ratios', panel_size=3, axs=None):
 
-    n = len(vars)
-    fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
+    if axs is None:
+        n = len(vars)
+        fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
+    else:
+        fig = axs[0].figure
 
     cind = (dat.metadata.Experiment.NA == 'Control').values.ravel()
 
@@ -148,7 +151,9 @@ def solution_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], phase='overg
         if solid_mode != 'ratios':
             yvar = ratio_to_partitioning[yvar]
         
-        m, unit = unit_picker(np.nanmean(noms(dat.loc[:, (phase, yvar)])))
+        # m, unit = unit_picker(np.quantile(noms(dat.loc[:, (phase, yvar)]), 0.5))
+        # print(m, unit)
+        m, unit = 1e3, 'mmol/mol'
         
         if var in ['Mg/Ca', 'Sr/Ca']:
             ind = np.zeros(dat.shape[0], dtype=bool)
@@ -205,11 +210,14 @@ def solution_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], phase='overg
 
     return fig, axs
 
-def solid_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], xphase='overgrowth', yphase='overgrowth', cmode='solution_start', solid_mode='ratios', panel_size=3, match_axes=True):
+def solid_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], xphase='overgrowth', yphase='overgrowth', cmode='solution_start', solid_mode='ratios', panel_size=3, match_axes=True, axs=None):
 
-    n = len(vars)
-    fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
-    
+    if axs is None:
+        n = len(vars)
+        fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
+    else:
+        fig = axs[0].figure
+
     cind = (dat.metadata.Experiment.NA == 'Control').values.ravel()
 
     for var, ax in zip(vars, axs):
@@ -289,11 +297,14 @@ def solid_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], xphase='overgro
     
     return fig, axs
 
-def solution_vs_yvar(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], yvar=('overgrowth', 'F_V'), xmode='solution_start', panel_size=3):
+def solution_vs_yvar(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], yvar=('overgrowth', 'F_V'), xmode='solution_start', panel_size=3, axs=None):
 
-    n = len(vars)
-    fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
-
+    if axs is None:
+        n = len(vars)
+        fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
+    else:
+        fig = axs[0].figure
+    
     cind = (dat.metadata.Experiment.NA == 'Control').values.ravel()
     
     for var, ax in zip(vars, axs):
@@ -353,3 +364,10 @@ def solution_vs_yvar(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], yvar=('overgr
     axs[-1].legend()
 
     return fig, axs
+
+def label_axes(axs, labels=None, x=0.02, y=0.98, va='top', ha='left', fontsize=12, weight='bold', color='grey', zorder=999, **kwargs):
+    if labels is None:
+        labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    for ax, lab in zip(axs.flat, labels):
+        ax.text(x, y, lab, transform=ax.transAxes, va=va, ha=ha, fontsize=fontsize, weight=weight, color=color, zorder=zorder, **kwargs)
+        
