@@ -48,11 +48,13 @@ def input_str_flex(param_dict,units='mol/kgw'):
     -m OH- H+
     -m HCO3- CO3-2 CO2 H2CO3 # carbon
     -m NaCO3- NaHCO3 # sodium
+    -m LiOH LiSO4
     -m CaHCO3+ CaOH+ CaCO3 # calcium
     -a Cl- Na+ Ca+2 Li+
     -a OH- H+
     -a HCO3- CO3-2 CO2 H2CO3
     -a NaCO3- NaHCO3 # sodium
+    -a LiOH LiSO4
     -a CaHCO3+ CaOH+ CaCO3 # calcium
     -si Calcite Aragonite
 END
