@@ -1,0 +1,6 @@
+numpy
+pandas
+uncertainties
+scipy
+matplotlib
+phreeqpy==0.5.1
