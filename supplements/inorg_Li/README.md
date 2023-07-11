@@ -4,7 +4,7 @@
 
 ### Python Notebooks
 
- - `00_NeptuneProcessing.ipynb`: Code to derive δ7Li values from raw Neptune data.
+ - `[00_NeptuneProcessing.ipynb](00_NeptuneProcessing.ipynb)`: Code to derive δ7Li values from raw Neptune data.
  - `01_DataCompilation.ipynb`: Code to compile isotopic, trace element and precipitation data, and unmix the composition of the experimental overgrowth from the seed crystals.
  - `02_Results.ipynb`: Plots and statistical analysis of the compiled data that are presented in the manuscript.
 
