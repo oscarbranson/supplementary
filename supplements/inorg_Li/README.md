@@ -1,4 +1,4 @@
-# Supplement to XXX et al. (in review)
+# Supplement to Branson et al. (in review), *Controls on Li partitioning and isotopic fractionation in inorganic calcite*
 
 ## Contents
 
