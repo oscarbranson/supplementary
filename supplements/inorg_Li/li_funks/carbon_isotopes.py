@@ -12,9 +12,9 @@ import uncertainties as un
 
 # From Zhang et al. (1995; https://doi.org/10.1016/0016-7037(95)91550-D)
 
-def epsilon_CG(T_C):
+def Delta_CG(T_C):
     """
-    Calculate epsilon_CO3-CO2(g).
+    Calculate Delta_CO3-CO2(g).
     """
     m = un.ufloat(-0.052, 0.021)
     c = un.ufloat(7.22, 0.38)
@@ -24,11 +24,11 @@ def alpha_CG(T_C):
     """
     Calculate alpha_CO3-CO2(g).
     """
-    return 1 + epsilon_CG(T_C) / 1000
+    return 1 + Delta_CG(T_C) / 1000
 
-def epsilon_BG(T_C):
+def Delta_BG(T_C):
     """
-    Calculate epsilon_HCO3-CO2(g).
+    Calculate Delta_HCO3-CO2(g).
     """
     m = un.ufloat(-0.1141, 0.0028)
     c = un.ufloat(10.78, 0.04)
@@ -38,7 +38,7 @@ def alpha_BG(T_C):
     """
     Calculate alpha_HCO3-CO2(g).
     """
-    return 1 + epsilon_BG(T_C) / 1000
+    return 1 + Delta_BG(T_C) / 1000
 
 def alpha_BC(T_C):
     """
