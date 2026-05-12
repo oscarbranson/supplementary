@@ -69,7 +69,7 @@ def calc_vat_frac(file, vat_location=12.42, cal_location=13.47, win_left=0.5, wi
         yn = pkfn(xn, *p)
         yn -= p[-2]
         yn -= p[-1] * (xn - p[0])
-        areas.append(np.trapz(yn, xn))
+        areas.append(np.trapezoid(yn, xn))
     
     R = areas[0] / areas[1] / a
     
@@ -80,8 +80,11 @@ def plot_fit(file, vat_location=12.42, cal_location=13.47, win_left=0.5, win_rig
     
     if win_right is None:
         win_right = win_left 
-        
-    vat_peak = fit_peak(dat, location=vat_location, win_left=win_left, win_right=win_right, update_loc=update_loc)
+    
+    try:
+        vat_peak = fit_peak(dat, location=vat_location, win_left=win_left, win_right=win_right, update_loc=update_loc)
+    except:
+        print(win_left, win_right)
     cal_peak = fit_peak(dat, location=cal_location, win_left=win_left, win_right=win_right, update_loc=update_loc)
     
     if update_loc:
