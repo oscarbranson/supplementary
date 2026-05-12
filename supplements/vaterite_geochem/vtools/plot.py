@@ -297,11 +297,11 @@ def solid_vs_solid(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], xphase='overgro
     
     return fig, axs
 
-def solution_vs_yvar(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], yvar=('overgrowth', 'F_V'), xmode='solution_start', panel_size=3, axs=None):
+def solution_vs_yvar(dat, vars=['Mg/Ca', 'Sr/Ca', 'B/C', 'Na/Ca'], yvar=('overgrowth', 'F_V'), xmode='solution_start', panel_size=3, axs=None, **subplot_kwargs):
 
     if axs is None:
         n = len(vars)
-        fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True)
+        fig, axs = plt.subplots(1, n, figsize=[panel_size * n, panel_size], constrained_layout=True, **subplot_kwargs)
     else:
         fig = axs[0].figure
     
